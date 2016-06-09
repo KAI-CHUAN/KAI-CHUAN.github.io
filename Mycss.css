@@ -1,0 +1,120 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url(Cocogoose.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: FZMM;
+  src: url(FZMM.ttf) format("truetype");
+}
+
+body {
+    background: url(image/bg.png) no-repeat center fixed; 
+    background-size: cover;
+}
+
+.fontms{
+    font-family: 微軟正黑體, 標楷體, 新細明體;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.FZMM {
+    font-family: FZMM, 微軟正黑體, 標楷體, 新細明體;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.Cocogoose1 {
+    font-family: Cocogoose, cursive, sans-serif;
+}
+
+#cc {
+    padding: 5% 0 0 0;
+}
+
+#mainP {
+    display: none;
+}
+
+.special {
+    position: float;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 60%;
+    margin: auto;
+    left: 15%;
+    opacity: 0.6;
+}
+
+#start {
+    width: 20%;
+    margin: auto;
+    padding: 2.5% 0;
+}
+
+#updown {
+    position: fixed;
+    right: 15px;
+    bottom: 60px;
+    display: none;
+}
+
+#gotop{
+    position: fixed;
+    right: 37.5px;
+    bottom: 100px;
+    display: none;
+}
+
+#mapGame {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+#walking td {
+    background-color: white;
+    width: 6%;
+}
+
+#walking td img {
+    width: 20%;
+    padding: 0 0 8% 0;
+    outline: none;
+    behavior:expression(this.onFocus=this.blur());
+}
+
+#mapGame .th2 {
+    vertical-align: middle;
+    background-color: #000000;
+    color: white;
+}
+
+.inverseI {
+    -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+    /*IE*/
+    filter:FlipH;
+}
+
+audio {
+    display: none;
+}
+
+#d1, #d2, #d3, #d4, #d5, #d6, #d7, #d8, #d9, #d10, #d11, #d12, #d13, #d14, #d15 {
+    display: none;
+}
+
+#dtc {
+    margin: auto;
+}
+
+#spacing {
+    width: 100%;
+    padding: 2.5% 0;
+}
